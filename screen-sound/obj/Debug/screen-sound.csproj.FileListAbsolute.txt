@@ -1,0 +1,7 @@
+C:\Users\marco\OneDrive\Documentos\MARCOS\cursos\alura\Csharp\screen-sound\bin\Debug\screen-sound.exe.config
+C:\Users\marco\OneDrive\Documentos\MARCOS\cursos\alura\Csharp\screen-sound\bin\Debug\screen-sound.exe
+C:\Users\marco\OneDrive\Documentos\MARCOS\cursos\alura\Csharp\screen-sound\bin\Debug\screen-sound.pdb
+C:\Users\marco\OneDrive\Documentos\MARCOS\cursos\alura\Csharp\screen-sound\obj\Debug\screen-sound.csproj.AssemblyReference.cache
+C:\Users\marco\OneDrive\Documentos\MARCOS\cursos\alura\Csharp\screen-sound\obj\Debug\screen-sound.csproj.CoreCompileInputs.cache
+C:\Users\marco\OneDrive\Documentos\MARCOS\cursos\alura\Csharp\screen-sound\obj\Debug\screen-sound.exe
+C:\Users\marco\OneDrive\Documentos\MARCOS\cursos\alura\Csharp\screen-sound\obj\Debug\screen-sound.pdb
