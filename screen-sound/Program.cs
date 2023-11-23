@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using System;
 
 namespace screen_sound
 {
@@ -12,11 +8,10 @@ namespace screen_sound
         {
             //Screen Sound
 
-            //Delcaração de Variáveis - Início
+            //Delcaração de Variáveis
             string msgBoasVindas = "> Seja bem-vindo ao Screen Sound!";
-            //Delcaração de Variáveis - Fim
 
-            //Declaração de Funções - Início
+            //Declaração de Funções
             void ExibirMsgDeBoasVindas()
             {
                 Console.WriteLine(@"
@@ -36,13 +31,39 @@ namespace screen_sound
                 Console.WriteLine("| 4.Exibir Média de uma Banda |");
                 Console.WriteLine("| 0.Encerrar                  |");
                 Console.WriteLine("+-----------------------------+");
+
+                Console.WriteLine("\nDigite a sua opção: ");
+                string inputUsr = Console.ReadLine();
+                int inputUsrNum = int.Parse(inputUsr);
+                switch (inputUsrNum)
+                {
+                    case 1:
+                        Console.WriteLine("Você escolheu a opção " + inputUsrNum);
+                        break;
+                    case 2:
+                        Console.WriteLine("Você escolheu a opção " + inputUsrNum);
+                        break;
+                    case 3:
+                        Console.WriteLine("Você escolheu a opção " + inputUsrNum);
+                        break;
+                    case 4:
+                        Console.WriteLine("Você escolheu a opção " + inputUsrNum);
+                        break;
+                    case 0:
+                        Console.WriteLine("Finalizando programa! Até mais :)");
+                        break;
+                    default:
+                        Console.WriteLine("Opção inválida");
+                        break;
+                }
+
             }
 
-            //Delcaração de Funções - Fim
 
-
+            //Inicio do Programa
             ExibirMsgDeBoasVindas();
             ExibirMenuDeOpcoes();
+
             Console.ReadLine();
         }
     }
